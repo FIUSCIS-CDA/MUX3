@@ -4,9 +4,9 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2018  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -16,87 +16,88 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
 (pin
 	(input)
 	(rect 128 296 296 312)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A" (rect 5 0 13 12)(font "Arial" ))
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (color 255 0 0)(font_size 6)))
+	(text "A" (rect 5 0 13 12)(font "Arial" (color 255 0 0)))
 	(pt 168 8)
 	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
+		(line (pt 84 12)(pt 109 12)(color 255 0 0))
+		(line (pt 84 4)(pt 109 4)(color 255 0 0))
+		(line (pt 113 8)(pt 168 8)(color 255 0 0))
+		(line (pt 84 12)(pt 84 4)(color 255 0 0))
+		(line (pt 109 4)(pt 113 8)(color 255 0 0))
+		(line (pt 109 12)(pt 113 8)(color 255 0 0))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (color 255 0 0)(font_size 6)))
 )
 (pin
 	(input)
 	(rect 128 512 296 528)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B" (rect 5 0 12 12)(font "Arial" ))
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (color 85 170 0)(font_size 6)))
+	(text "B" (rect 5 0 12 12)(font "Arial" (color 85 170 0)))
 	(pt 168 8)
 	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
+		(line (pt 84 12)(pt 109 12)(color 85 170 0))
+		(line (pt 84 4)(pt 109 4)(color 85 170 0))
+		(line (pt 113 8)(pt 168 8)(color 85 170 0))
+		(line (pt 84 12)(pt 84 4)(color 85 170 0))
+		(line (pt 109 4)(pt 113 8)(color 85 170 0))
+		(line (pt 109 12)(pt 113 8)(color 85 170 0))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect 408 120 576 136)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "S[1..0]" (rect 5 0 38 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (color 85 170 0)(font_size 6)))
 )
 (pin
 	(input)
 	(rect 128 672 296 688)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "C" (rect 5 0 13 12)(font "Arial" ))
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (color 255 170 0)(font_size 6)))
+	(text "C" (rect 5 0 13 12)(font "Arial" (color 255 170 0)))
 	(pt 168 8)
 	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
+		(line (pt 84 12)(pt 109 12)(color 255 170 0))
+		(line (pt 84 4)(pt 109 4)(color 255 170 0))
+		(line (pt 113 8)(pt 168 8)(color 255 170 0))
+		(line (pt 84 12)(pt 84 4)(color 255 170 0))
+		(line (pt 109 4)(pt 113 8)(color 255 170 0))
+		(line (pt 109 12)(pt 113 8)(color 255 170 0))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (color 255 170 0)(font_size 6)))
+)
+(pin
+	(input)
+	(rect 408 120 576 136)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (color 0 153 153)(font_size 6)))
+	(text "S[1..0]" (rect 5 0 38 12)(font "Arial" (color 0 153 153)))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12)(color 0 154 154))
+		(line (pt 84 4)(pt 109 4)(color 0 154 154))
+		(line (pt 113 8)(pt 168 8)(color 0 154 154))
+		(line (pt 84 12)(pt 84 4)(color 0 154 154))
+		(line (pt 109 4)(pt 113 8)(color 0 154 154))
+		(line (pt 109 12)(pt 113 8)(color 0 154 154))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (color 0 153 153)(font_size 6)))
 )
 (pin
 	(output)
 	(rect 856 352 1032 368)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "Y" (rect 90 0 98 12)(font "Arial" ))
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (color 0 0 255)(font_size 6)))
+	(text "Y" (rect 90 0 98 12)(font "Arial" (color 0 0 255)))
 	(pt 0 8)
 	(drawing
-		(line (pt 0 8)(pt 52 8))
-		(line (pt 52 4)(pt 78 4))
-		(line (pt 52 12)(pt 78 12))
-		(line (pt 52 12)(pt 52 4))
-		(line (pt 78 4)(pt 82 8))
-		(line (pt 82 8)(pt 78 12))
-		(line (pt 78 12)(pt 82 8))
+		(line (pt 0 8)(pt 52 8)(color 0 0 255))
+		(line (pt 52 4)(pt 78 4)(color 0 0 255))
+		(line (pt 52 12)(pt 78 12)(color 0 0 255))
+		(line (pt 52 12)(pt 52 4)(color 0 0 255))
+		(line (pt 78 4)(pt 82 8)(color 0 0 255))
+		(line (pt 82 8)(pt 78 12)(color 0 0 255))
+		(line (pt 78 12)(pt 82 8)(color 0 0 255))
 	)
 )
 (symbol
@@ -307,118 +308,6 @@ refer to the applicable agreement for further details.
 	)
 )
 (connector
-	(pt 800 360)
-	(pt 856 360)
-)
-(connector
-	(pt 416 224)
-	(pt 448 224)
-)
-(connector
-	(pt 296 304)
-	(pt 504 304)
-)
-(connector
-	(pt 504 304)
-	(pt 504 312)
-)
-(connector
-	(pt 504 312)
-	(pt 616 312)
-)
-(connector
-	(pt 416 520)
-	(pt 416 464)
-)
-(connector
-	(pt 416 464)
-	(pt 616 464)
-)
-(connector
-	(pt 296 520)
-	(pt 416 520)
-)
-(connector
-	(pt 416 176)
-	(pt 416 224)
-)
-(connector
-	(pt 416 176)
-	(pt 768 176)
-)
-(connector
-	(text "S[1]" (rect 752 143 764 163)(font "Arial" )(vertical))
-	(pt 768 128)
-	(pt 768 176)
-)
-(connector
-	(pt 664 128)
-	(pt 768 128)
-	(bus)
-)
-(connector
-	(text "S[0]" (rect 648 119 660 139)(font "Arial" )(vertical))
-	(pt 664 128)
-	(pt 664 152)
-)
-(connector
-	(pt 664 152)
-	(pt 384 152)
-)
-(connector
-	(pt 384 272)
-	(pt 448 272)
-)
-(connector
-	(pt 384 456)
-	(pt 616 456)
-)
-(connector
-	(pt 384 152)
-	(pt 384 272)
-)
-(connector
-	(pt 416 224)
-	(pt 416 408)
-)
-(connector
-	(pt 592 448)
-	(pt 616 448)
-)
-(connector
-	(pt 432 408)
-	(pt 432 616)
-)
-(connector
-	(pt 432 616)
-	(pt 616 616)
-)
-(connector
-	(pt 416 408)
-	(pt 432 408)
-)
-(connector
-	(pt 568 624)
-	(pt 616 624)
-)
-(connector
-	(pt 584 680)
-	(pt 584 632)
-)
-(connector
-	(pt 296 680)
-	(pt 584 680)
-)
-(connector
-	(pt 584 632)
-	(pt 616 632)
-)
-(connector
-	(pt 576 128)
-	(pt 664 128)
-	(bus)
-)
-(connector
 	(pt 680 304)
 	(pt 704 304)
 )
@@ -458,54 +347,205 @@ refer to the applicable agreement for further details.
 	(pt 736 368)
 )
 (connector
-	(pt 496 224)
-	(pt 568 224)
+	(pt 296 304)
+	(pt 504 304)
+	(color 255 0 0)
 )
 (connector
-	(text "notS1" (rect 552 263 569 290)(font "Intel Clear" )(vertical))
-	(pt 568 224)
-	(pt 568 296)
+	(pt 504 304)
+	(pt 504 312)
+	(color 255 0 0)
 )
 (connector
-	(pt 496 272)
-	(pt 528 272)
+	(pt 504 312)
+	(pt 616 312)
+	(color 255 0 0)
 )
 (connector
-	(pt 528 304)
-	(pt 616 304)
+	(pt 416 520)
+	(pt 416 464)
+	(color 85 170 0)
 )
 (connector
-	(pt 592 296)
-	(pt 592 448)
+	(pt 416 464)
+	(pt 616 464)
+	(color 85 170 0)
 )
 (connector
-	(pt 568 296)
-	(pt 592 296)
+	(pt 296 520)
+	(pt 416 520)
+	(color 85 170 0)
 )
 (connector
-	(pt 592 296)
-	(pt 616 296)
+	(pt 584 680)
+	(pt 584 632)
+	(color 255 170 0)
 )
 (connector
-	(pt 568 664)
-	(pt 528 664)
+	(pt 296 680)
+	(pt 584 680)
+	(color 255 170 0)
 )
 (connector
-	(pt 568 624)
-	(pt 568 664)
+	(pt 584 632)
+	(pt 616 632)
+	(color 255 170 0)
+)
+(connector
+	(pt 416 224)
+	(pt 448 224)
+	(color 0 154 154)
+)
+(connector
+	(pt 416 176)
+	(pt 416 224)
+	(color 0 154 154)
+)
+(connector
+	(pt 416 176)
+	(pt 768 176)
+	(color 0 154 154)
+)
+(connector
+	(text "S[1]" (rect 752 143 764 163)(font "Arial" (color 0 153 153))(vertical))
+	(pt 768 128)
+	(pt 768 176)
+	(color 0 154 154)
+)
+(connector
+	(pt 664 128)
+	(pt 768 128)
+	(bus)
+	(color 0 154 154)
+)
+(connector
+	(text "S[0]" (rect 648 119 660 139)(font "Arial" (color 0 153 153))(vertical))
+	(pt 664 128)
+	(pt 664 152)
+	(color 0 154 154)
+)
+(connector
+	(pt 664 152)
+	(pt 384 152)
+	(color 0 154 154)
+)
+(connector
+	(pt 384 272)
+	(pt 448 272)
+	(color 0 154 154)
+)
+(connector
+	(pt 384 456)
+	(pt 616 456)
+	(color 0 154 154)
+)
+(connector
+	(pt 384 152)
+	(pt 384 272)
+	(color 0 154 154)
+)
+(connector
+	(pt 416 224)
+	(pt 416 408)
+	(color 0 154 154)
+)
+(connector
+	(pt 432 408)
+	(pt 432 616)
+	(color 0 154 154)
+)
+(connector
+	(pt 432 616)
+	(pt 616 616)
+	(color 0 154 154)
+)
+(connector
+	(pt 416 408)
+	(pt 432 408)
+	(color 0 154 154)
+)
+(connector
+	(pt 576 128)
+	(pt 664 128)
+	(bus)
+	(color 0 154 154)
 )
 (connector
 	(pt 384 272)
 	(pt 384 456)
+	(color 0 154 154)
 )
 (connector
-	(text "notS0" (rect 512 271 529 298)(font "Intel Clear" )(vertical))
+	(pt 592 448)
+	(pt 616 448)
+	(color 0 148 148)
+)
+(connector
+	(pt 568 624)
+	(pt 616 624)
+	(color 0 148 148)
+)
+(connector
+	(pt 496 224)
+	(pt 568 224)
+	(color 0 148 148)
+)
+(connector
+	(text "notS1" (rect 552 263 564 291)(font "Arial" (color 0 148 148))(vertical))
+	(pt 568 224)
+	(pt 568 296)
+	(color 0 148 148)
+)
+(connector
+	(pt 496 272)
+	(pt 528 272)
+	(color 0 148 148)
+)
+(connector
+	(pt 528 304)
+	(pt 616 304)
+	(color 0 148 148)
+)
+(connector
+	(pt 592 296)
+	(pt 592 448)
+	(color 0 148 148)
+)
+(connector
+	(pt 568 296)
+	(pt 592 296)
+	(color 0 148 148)
+)
+(connector
+	(pt 592 296)
+	(pt 616 296)
+	(color 0 148 148)
+)
+(connector
+	(pt 568 664)
+	(pt 528 664)
+	(color 0 148 148)
+)
+(connector
+	(pt 568 624)
+	(pt 568 664)
+	(color 0 148 148)
+)
+(connector
+	(text "notS0" (rect 512 271 524 299)(font "Arial" (color 0 148 148))(vertical))
 	(pt 528 272)
 	(pt 528 304)
+	(color 0 148 148)
 )
 (connector
 	(pt 528 304)
 	(pt 528 664)
+	(color 0 148 148)
+)
+(connector
+	(pt 800 360)
+	(pt 856 360)
+	(color 0 0 255)
 )
 (junction (pt 416 224))
 (junction (pt 664 128))
